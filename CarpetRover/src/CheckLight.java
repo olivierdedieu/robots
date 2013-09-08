@@ -11,6 +11,7 @@ public class CheckLight implements ButtonListener {
     
     ColorSensor sensor = new ColorSensor(SensorPort.S3);
     sensor.setFloodlight(true);
+    
     printLightValue(sensor);
   }
   
