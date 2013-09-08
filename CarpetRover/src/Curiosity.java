@@ -16,15 +16,15 @@ public class Curiosity  implements ButtonListener {
   
   private static final double TRACK_WIDTH = 15; // cm
 
-  
   private static final int TRAVEL_SPEED = 50;
   private static final int ROTATE_SPEED = 100;
   
   private static final float OBSTACLE_DISTANCE     = 20;  // cm
   private static final float OBSTACLE_DISTANCE_OK  = 20;  // cm
   private static final int   OBSTACLE_BACKWARD     = -15; // cm
-  private static final int   OBSTACLE_ANGLE        = 360;  // degree
-  private static final int   INCLINAISON_BACKWARD  = -60;
+  private static final int   OBSTACLE_ANGLE        = 360; // degree
+  private static final int   INCLINAISON_BACKWARD  = -80; // cm
+
   private DifferentialPilot pilot;
   private UltrasonicSensor frontSensor;
   private ColorSensor colorSensor;
