@@ -5,11 +5,7 @@ import lejos.nxt.SensorPort;
 
 public class CheckLight implements ButtonListener {
 
-  
-  
   public static void main(String[] args) throws Exception {
-    
-    
     CheckLight listener = new CheckLight();
     Button.ENTER.addButtonListener(listener);
     
