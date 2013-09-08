@@ -19,7 +19,6 @@ public class DistancePID implements ButtonListener {
   
   public static int MAX_SPEED = Tp + 1000;
   
-  
   public static double dt = 0.1; 
   public static boolean resetIntegral = true;
   
